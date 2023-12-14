@@ -1,4 +1,4 @@
-# Diagnostic Performances of Radiologists Based on Sonographic Gallbladder Images in Detecting Biliary Atresia Can Be Improved with Deep Learning-based Smartphone App’s Assistance
+# Interpretable artificial intelligence-based app assists inexperienced radiologists in diagnosing biliary atresia from sonographic gallbladder images
 
 ![https://opensource.org/licenses/MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![https://www.python.org/](https://img.shields.io/badge/language-python-yellow.svg)
@@ -39,7 +39,7 @@ Some examples are on the `./example_data/`.
 
 
 # Result
-The average AUC of the smartphone app was 0.842 (95% CI: 0.835-0.850) based on the photos taken by junior radiologists and 0.833 (95% CI: 0.788-0.877) based on the photos taken by senior radiologists, which is significantly better than AUC of 10 of 14 radiologists (P < 0.05).
+The new model significantly outperformed the previous published model in diagnosing BA on the external validation set (AUC 0.924 vs 0.908, P=0.004) with higher consistency (average kappa value 0.767 vs 0.671).
 
 # CAM
 In our study, we used `./src/util/HeatMap.py`  **the class activation map (CAM)** technology to explain on which region(s) the model focus.
